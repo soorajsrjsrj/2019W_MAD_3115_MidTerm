@@ -17,6 +17,7 @@
 		9BAC0C352241C898002252C8 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC0C342241C898002252C8 /* Student.swift */; };
 		9BAC0C382241C8C7002252C8 /* StudentEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC0C372241C8C7002252C8 /* StudentEntryViewController.swift */; };
 		9BAC0C3A2241C8DC002252C8 /* StudentResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC0C392241C8DC002252C8 /* StudentResultViewController.swift */; };
+		B10F10C92242F42E00E6B8E1 /* icons8-businessman-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B10F10C82242F42E00E6B8E1 /* icons8-businessman-filled-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9BAC0C342241C898002252C8 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		9BAC0C372241C8C7002252C8 /* StudentEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentEntryViewController.swift; sourceTree = "<group>"; };
 		9BAC0C392241C8DC002252C8 /* StudentResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentResultViewController.swift; sourceTree = "<group>"; };
+		B10F10C82242F42E00E6B8E1 /* icons8-businessman-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-businessman-filled-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9BAC0C362241C8A0002252C8 /* Students */,
 				9BAC0C332241C87A002252C8 /* Model */,
 				9BAC0C052241C855002252C8 /* AppDelegate.swift */,
+				B10F10C82242F42E00E6B8E1 /* icons8-businessman-filled-50.png */,
 				9BAC0C072241C855002252C8 /* LoginViewController.swift */,
 				9BAC0C092241C855002252C8 /* Main.storyboard */,
 				9BAC0C0C2241C857002252C8 /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			files = (
 				9BAC0C102241C857002252C8 /* LaunchScreen.storyboard in Resources */,
 				9BAC0C0D2241C857002252C8 /* Assets.xcassets in Resources */,
+				B10F10C92242F42E00E6B8E1 /* icons8-businessman-filled-50.png in Resources */,
 				9BAC0C0B2241C855002252C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
