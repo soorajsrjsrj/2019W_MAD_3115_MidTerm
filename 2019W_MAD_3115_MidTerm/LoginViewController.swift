@@ -13,7 +13,9 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var rememberme: UISwitch!
-  
+    
+    @IBOutlet var remeberme: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,9 +26,19 @@ class LoginViewController: UIViewController {
     @IBAction func signInBtn(_ sender: UIButton) {
         var a = username.text
         var b = password.text
+        
         if((a=="admin") && (b=="admin@123")){
+            let storyboard = UIStoryboard(name: "Main", bundle: nil);
+            let vc = storyboard.instantiateViewController(withIdentifier: "StudentEntry")
+            self.present(vc, animated: true, completion: nil);
             
             
+        }
+        else{
+            let alertController = UIAlertController(title: "Alert", message: "Please type the correct email and password", preferredStyle: .alert)
+            let action1 = UIAlertAction(title: "ok", style: .default)
+            alertController.addAction(action1)
+            self.present(alertController, animated: true, completion: nil)   
         }
   
     
