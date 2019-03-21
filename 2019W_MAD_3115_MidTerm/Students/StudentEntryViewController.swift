@@ -22,7 +22,6 @@ class StudentEntryViewController: UIViewController {
     @IBOutlet weak var smark5: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
    
@@ -44,10 +43,6 @@ class StudentEntryViewController: UIViewController {
         
         
         var std = Student(studid: a!, studname: b!, studgender: c!, studcoursename: d!, studemail: e!, studbirth: f!, studMarks: [g!,h!,i!,j!,k!])
-        
-        
-        
-        
         
     }
     

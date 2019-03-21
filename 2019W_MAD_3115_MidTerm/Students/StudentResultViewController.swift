@@ -8,18 +8,26 @@
 
 import UIKit
 
-class StudentResultViewController: UIViewController {
+class StudentResultViewController: UIViewController{
+   
+   
     
-  
+ 
+
+    @IBAction func logout(_ sender: Any) {
+       
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+    
        
-        
+       
 
         // Do any additional setup after loading the view.
     }
+ 
     
 
     /*

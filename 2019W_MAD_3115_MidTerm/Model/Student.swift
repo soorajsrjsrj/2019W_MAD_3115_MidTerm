@@ -51,4 +51,8 @@ class Student{
         }
     
 }
+    func getstudent() -> String {
+        let name = self.stdid
+        return name
+    }
 }
